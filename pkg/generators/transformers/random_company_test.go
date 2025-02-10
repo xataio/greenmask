@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/greenmaskio/greenmask/internal/generators"
+	"github.com/greenmaskio/greenmask/pkg/generators"
 )
 
 func TestRandomCompanyNameTransformer_GetCompanyName(t *testing.T) {
