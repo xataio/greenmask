@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/greenmaskio/greenmask/internal/utils/testutils"
+	"github.com/eminano/greenmask/internal/utils/testutils"
 )
 
 type connectorSuite struct {

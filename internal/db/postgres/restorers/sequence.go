@@ -20,8 +20,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/utils"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/utils"
 )
 
 type SequenceRestorer struct {

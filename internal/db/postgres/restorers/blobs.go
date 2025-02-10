@@ -26,10 +26,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/utils"
-	"github.com/greenmaskio/greenmask/internal/storages"
-	"github.com/greenmaskio/greenmask/internal/utils/ioutils"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/utils"
+	"github.com/eminano/greenmask/internal/storages"
+	"github.com/eminano/greenmask/internal/utils/ioutils"
 )
 
 type BlobsRestorer struct {

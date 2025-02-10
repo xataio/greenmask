@@ -11,10 +11,10 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/utils"
-	"github.com/greenmaskio/greenmask/internal/utils/ioutils"
-	"github.com/greenmaskio/greenmask/internal/utils/testutils"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/utils"
+	"github.com/eminano/greenmask/internal/utils/ioutils"
+	"github.com/eminano/greenmask/internal/utils/testutils"
 )
 
 func (s *restoresSuite) Test_BlobsRestorer_getBlobsOIds() {

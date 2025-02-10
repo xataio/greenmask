@@ -3,8 +3,8 @@ package restorers
 import (
 	"context"
 
-	"github.com/greenmaskio/greenmask/internal/db/postgres/toc"
-	"github.com/greenmaskio/greenmask/internal/db/postgres/utils"
+	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/eminano/greenmask/internal/db/postgres/utils"
 )
 
 func (s *restoresSuite) Test_SequencesRestorer_Execute() {

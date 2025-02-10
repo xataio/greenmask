@@ -21,7 +21,7 @@ import (
 
 	"github.com/go-viper/mapstructure/v2"
 
-	"github.com/greenmaskio/greenmask/pkg/toolkit"
+	"github.com/eminano/greenmask/pkg/toolkit"
 )
 
 func ParamsToByteSliceHookFunc() mapstructure.DecodeHookFunc {
