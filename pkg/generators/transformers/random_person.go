@@ -187,8 +187,7 @@ type RandomPersonTransformer struct {
 	// db - mapping gender to other personal attribute
 	// common structure
 	// gender -> person_attribute -> []possible values
-	db     *PersonDatabase
-	result map[string]string
+	db *PersonDatabase
 }
 
 func NewRandomPersonTransformer(gender string, personDb Database) *RandomPersonTransformer {
@@ -203,7 +202,6 @@ func NewRandomPersonTransformer(gender string, personDb Database) *RandomPersonT
 		gender: gender,
 		// we assume 4 bytes peer attribute + 1 byte for gender
 		db:         db,
-		result:     make(map[string]string, db.AttributesCount),
 		byteLength: db.AttributesCount * 4,
 	}
 }
@@ -213,7 +211,7 @@ func (rpt *RandomPersonTransformer) GetDb() *PersonDatabase {
 }
 
 func (rpt *RandomPersonTransformer) GetFullName(gender string, original []byte) (map[string]string, error) {
-
+	result := make(map[string]string, rpt.db.AttributesCount)
 	resBytes, err := rpt.generator.Generate(original)
 	if err != nil {
 		return nil, err
@@ -228,11 +226,11 @@ func (rpt *RandomPersonTransformer) GetFullName(gender string, original []byte) 
 	startIdx := 1
 	for _, attr := range rpt.db.Attributes {
 		attrIdx := binary.LittleEndian.Uint32(resBytes[startIdx : startIdx+4])
-		rpt.result[attr] = rpt.db.GetRandomAttribute(gender, attr, attrIdx)
+		result[attr] = rpt.db.GetRandomAttribute(gender, attr, attrIdx)
 		startIdx += 4
 	}
 
-	return rpt.result, nil
+	return result, nil
 }
 
 func (rpt *RandomPersonTransformer) getGender(gender string, randomGenderIdx byte) (string, error) {
