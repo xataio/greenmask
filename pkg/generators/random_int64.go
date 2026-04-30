@@ -3,9 +3,11 @@ package generators
 import (
 	"encoding/binary"
 	"math/rand"
+	"sync"
 )
 
 type Int64Random struct {
+	mu   sync.Mutex
 	r    *rand.Rand
 	size int
 }
@@ -19,6 +21,8 @@ func NewInt64Random(seed int64) (*Int64Random, error) {
 
 func (i *Int64Random) Generate(data []byte) ([]byte, error) {
 	res := make([]byte, i.size)
+	i.mu.Lock()
+	defer i.mu.Unlock()
 	binary.LittleEndian.PutUint64(res, i.r.Uint64())
 	return res, nil
 }

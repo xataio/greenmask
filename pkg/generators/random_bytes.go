@@ -3,9 +3,11 @@ package generators
 import (
 	"encoding/binary"
 	"math/rand"
+	"sync"
 )
 
 type RandomBytes struct {
+	mu    sync.Mutex
 	r     *rand.Rand
 	size  int
 	iters int
@@ -26,6 +28,8 @@ func NewRandomBytes(seed int64, size int) *RandomBytes {
 func (br *RandomBytes) Generate(data []byte) ([]byte, error) {
 	res := make([]byte, 0, br.size)
 	buf := make([]byte, 8)
+	br.mu.Lock()
+	defer br.mu.Unlock()
 	for i := 0; i < br.iters; i++ {
 		binary.LittleEndian.PutUint64(buf, br.r.Uint64())
 		res = append(res, buf...)
