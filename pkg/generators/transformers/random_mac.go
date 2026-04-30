@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/eminano/greenmask/pkg/generators"
+	"github.com/xataio/greenmask/pkg/generators"
 )
 
 const (

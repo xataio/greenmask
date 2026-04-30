@@ -25,16 +25,16 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/delete"
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/dump"
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/list_dumps"
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/list_transformers"
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/restore"
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/show_dump"
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/show_transformer"
-	"github.com/eminano/greenmask/cmd/greenmask/cmd/validate"
-	pgDomains "github.com/eminano/greenmask/internal/domains"
-	configUtils "github.com/eminano/greenmask/internal/utils/config"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/delete"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/dump"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/list_dumps"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/list_transformers"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/restore"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/show_dump"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/show_transformer"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd/validate"
+	pgDomains "github.com/xataio/greenmask/internal/domains"
+	configUtils "github.com/xataio/greenmask/internal/utils/config"
 )
 
 var (

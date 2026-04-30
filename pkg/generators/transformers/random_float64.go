@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/eminano/greenmask/pkg/generators"
+	"github.com/xataio/greenmask/pkg/generators"
 )
 
 type Float64Limiter struct {

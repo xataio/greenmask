@@ -17,7 +17,7 @@ package custom
 import (
 	"time"
 
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/eminano/greenmask/internal/storages/domains"
+	"github.com/xataio/greenmask/internal/storages/domains"
 )
 
 type Storager interface {

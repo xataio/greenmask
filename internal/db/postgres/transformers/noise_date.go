@@ -21,9 +21,9 @@ import (
 
 	"github.com/jackc/pgx/v5/pgtype"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/pkg/generators/transformers"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/pkg/generators/transformers"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 // TODO: Ensure pqinterval.Duration returns duration in int64 for date and time

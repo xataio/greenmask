@@ -25,8 +25,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	storageDto "github.com/eminano/greenmask/internal/db/postgres/storage"
-	"github.com/eminano/greenmask/internal/storages"
+	storageDto "github.com/xataio/greenmask/internal/db/postgres/storage"
+	"github.com/xataio/greenmask/internal/storages"
 )
 
 const templateName = "metadataList"

@@ -8,9 +8,9 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/require"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	utils2 "github.com/eminano/greenmask/internal/utils"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	utils2 "github.com/xataio/greenmask/internal/utils"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 func TestBigIntTransformer_Transform_random_static(t *testing.T) {

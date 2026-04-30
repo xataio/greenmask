@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/internal/storages/domains"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/storages/domains"
 )
 
 type StorageMock struct {

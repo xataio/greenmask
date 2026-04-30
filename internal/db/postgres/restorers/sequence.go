@@ -21,7 +21,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/db/postgres/toc"
+	"github.com/xataio/greenmask/internal/db/postgres/toc"
 )
 
 type SequenceRestorer struct {

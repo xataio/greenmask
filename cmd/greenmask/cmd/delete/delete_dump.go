@@ -26,11 +26,11 @@ import (
 	"github.com/spf13/cobra"
 	gostr "github.com/xhit/go-str2duration/v2"
 
-	pgDomains "github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/internal/storages/builder"
-	"github.com/eminano/greenmask/internal/utils/dumpstatus"
-	"github.com/eminano/greenmask/internal/utils/logger"
+	pgDomains "github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/storages/builder"
+	"github.com/xataio/greenmask/internal/utils/dumpstatus"
+	"github.com/xataio/greenmask/internal/utils/logger"
 )
 
 var (

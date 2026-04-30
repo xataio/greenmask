@@ -6,9 +6,9 @@ import (
 	"io"
 	"maps"
 
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	"github.com/xataio/greenmask/internal/db/postgres/pgcopy"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 type Documenter interface {

@@ -27,7 +27,7 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/stretchr/testify/suite"
 
-	toclib "github.com/eminano/greenmask/internal/db/postgres/toc"
+	toclib "github.com/xataio/greenmask/internal/db/postgres/toc"
 )
 
 // Scenario

@@ -1,6 +1,6 @@
 package subset
 
-import "github.com/eminano/greenmask/internal/db/postgres/entries"
+import "github.com/xataio/greenmask/internal/db/postgres/entries"
 
 type CycleEdge struct {
 	id     int

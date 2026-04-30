@@ -8,9 +8,9 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	stringsUtils "github.com/eminano/greenmask/internal/utils/strings"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	stringsUtils "github.com/xataio/greenmask/internal/utils/strings"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const (

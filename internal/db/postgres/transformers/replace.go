@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const ReplaceTransformerName = "Replace"

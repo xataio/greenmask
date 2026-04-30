@@ -14,7 +14,7 @@
 
 package testutils
 
-import "github.com/eminano/greenmask/pkg/toolkit"
+import "github.com/xataio/greenmask/pkg/toolkit"
 
 var NullSeq = "\\N"
 var Delim byte = '\t'

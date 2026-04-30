@@ -23,7 +23,7 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/utils/cmd_runner"
+	"github.com/xataio/greenmask/internal/utils/cmd_runner"
 )
 
 const pgDumpExecutable = "pg_dump"
