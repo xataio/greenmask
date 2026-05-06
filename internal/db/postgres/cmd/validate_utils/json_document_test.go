@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	"github.com/xataio/greenmask/internal/db/postgres/pgcopy"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 func TestJsonDocument_GetAffectedColumns(t *testing.T) {

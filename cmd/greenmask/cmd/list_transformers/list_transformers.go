@@ -22,15 +22,15 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 	"github.com/olekukonko/tablewriter"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/custom"
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/internal/utils/logger"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/custom"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/internal/utils/logger"
 )
 
 var (

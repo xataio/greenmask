@@ -25,11 +25,11 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/internal/storages/builder"
-	"github.com/eminano/greenmask/internal/utils/dumpstatus"
-	"github.com/eminano/greenmask/internal/utils/logger"
+	"github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/storages/builder"
+	"github.com/xataio/greenmask/internal/utils/dumpstatus"
+	"github.com/xataio/greenmask/internal/utils/logger"
 )
 
 var (

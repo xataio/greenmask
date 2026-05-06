@@ -20,9 +20,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/db/postgres/toc"
-	"github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/toc"
+	"github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 type ObjectSizeStat struct {

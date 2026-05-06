@@ -15,7 +15,7 @@
 package transformers
 
 import (
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 type ColumnContext struct {

@@ -19,7 +19,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const highBit byte = 0x80

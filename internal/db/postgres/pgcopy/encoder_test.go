@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 func TestEncodeAttr(t *testing.T) {

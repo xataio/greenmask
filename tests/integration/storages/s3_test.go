@@ -24,8 +24,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/internal/storages/s3"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/storages/s3"
 )
 
 type S3StorageSuite struct {

@@ -9,9 +9,9 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/pkg/generators/transformers"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/pkg/generators/transformers"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 func TestRandomPersonTransformer_Transform_static_fullname(t *testing.T) {

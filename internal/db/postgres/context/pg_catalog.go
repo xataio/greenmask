@@ -23,10 +23,10 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	"github.com/eminano/greenmask/internal/db/postgres/pgdump"
-	"github.com/eminano/greenmask/internal/db/postgres/toc"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	"github.com/xataio/greenmask/internal/db/postgres/pgdump"
+	"github.com/xataio/greenmask/internal/db/postgres/toc"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const (

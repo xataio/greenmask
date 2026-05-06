@@ -23,11 +23,11 @@ import (
 	"github.com/rs/zerolog/log"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
-	"github.com/eminano/greenmask/internal/db/postgres/transformers"
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	"github.com/xataio/greenmask/internal/db/postgres/pgcopy"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 var endOfLineSeq = []byte("\n")

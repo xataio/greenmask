@@ -25,7 +25,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/utils/cmd_runner"
+	"github.com/xataio/greenmask/internal/utils/cmd_runner"
 )
 
 type Script struct {

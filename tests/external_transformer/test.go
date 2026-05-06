@@ -22,7 +22,7 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 var testTransformerDefinition = toolkit.NewTransformerDefinition(

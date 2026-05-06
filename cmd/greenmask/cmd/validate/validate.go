@@ -22,11 +22,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cmdInternals "github.com/eminano/greenmask/internal/db/postgres/cmd"
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/internal/storages/builder"
-	"github.com/eminano/greenmask/internal/utils/logger"
+	cmdInternals "github.com/xataio/greenmask/internal/db/postgres/cmd"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/internal/storages/builder"
+	"github.com/xataio/greenmask/internal/utils/logger"
 )
 
 var (

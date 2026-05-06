@@ -3,7 +3,7 @@ package transformers
 import (
 	"github.com/tidwall/gjson"
 
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 type JsonContext struct {

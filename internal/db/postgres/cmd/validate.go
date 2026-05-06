@@ -16,18 +16,18 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/db/postgres/cmd/validate_utils"
-	runtimeContext "github.com/eminano/greenmask/internal/db/postgres/context"
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	"github.com/eminano/greenmask/internal/db/postgres/pgcopy"
-	storageDto "github.com/eminano/greenmask/internal/db/postgres/storage"
-	"github.com/eminano/greenmask/internal/db/postgres/toc"
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/custom"
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/internal/utils/reader"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/cmd/validate_utils"
+	runtimeContext "github.com/xataio/greenmask/internal/db/postgres/context"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	"github.com/xataio/greenmask/internal/db/postgres/pgcopy"
+	storageDto "github.com/xataio/greenmask/internal/db/postgres/storage"
+	"github.com/xataio/greenmask/internal/db/postgres/toc"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/custom"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/utils/reader"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const (

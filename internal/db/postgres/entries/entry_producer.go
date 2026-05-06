@@ -14,7 +14,7 @@
 
 package entries
 
-import "github.com/eminano/greenmask/internal/db/postgres/toc"
+import "github.com/xataio/greenmask/internal/db/postgres/toc"
 
 type Entry interface {
 	Entry() (*toc.Entry, error)

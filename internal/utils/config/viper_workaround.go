@@ -22,8 +22,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 // ParseTransformerParamsManually - manually parse dump.transformation[a].transformers[b].params

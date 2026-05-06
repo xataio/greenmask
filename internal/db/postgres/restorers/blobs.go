@@ -26,9 +26,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/db/postgres/toc"
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/internal/utils/ioutils"
+	"github.com/xataio/greenmask/internal/db/postgres/toc"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/utils/ioutils"
 )
 
 type BlobsRestorer struct {

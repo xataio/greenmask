@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
 
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 func TestTimestampTransformer_Transform(t *testing.T) {

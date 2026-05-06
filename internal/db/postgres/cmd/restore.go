@@ -36,13 +36,13 @@ import (
 	"golang.org/x/sync/errgroup"
 	"gopkg.in/yaml.v3"
 
-	"github.com/eminano/greenmask/internal/db/postgres/pgrestore"
-	"github.com/eminano/greenmask/internal/db/postgres/restorers"
-	"github.com/eminano/greenmask/internal/db/postgres/storage"
-	"github.com/eminano/greenmask/internal/db/postgres/toc"
-	"github.com/eminano/greenmask/internal/domains"
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/pgrestore"
+	"github.com/xataio/greenmask/internal/db/postgres/restorers"
+	"github.com/xataio/greenmask/internal/db/postgres/storage"
+	"github.com/xataio/greenmask/internal/db/postgres/toc"
+	"github.com/xataio/greenmask/internal/domains"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const (

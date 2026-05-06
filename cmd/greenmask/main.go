@@ -17,7 +17,7 @@ package main
 import (
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/cmd/greenmask/cmd"
+	"github.com/xataio/greenmask/cmd/greenmask/cmd"
 )
 
 func main() {

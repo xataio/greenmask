@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const (

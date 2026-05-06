@@ -21,8 +21,8 @@ import (
 	"github.com/go-faker/faker/v4"
 	"github.com/go-faker/faker/v4/pkg/options"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/eminano/greenmask/internal/db/postgres/transformers/utils"
-	"github.com/eminano/greenmask/pkg/generators"
+	"github.com/xataio/greenmask/internal/db/postgres/transformers/utils"
+	"github.com/xataio/greenmask/pkg/generators"
 )
 
 const (

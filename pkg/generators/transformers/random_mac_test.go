@@ -9,7 +9,7 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/eminano/greenmask/pkg/generators"
+	"github.com/xataio/greenmask/pkg/generators"
 )
 
 func TestMacAddress_Generate(t *testing.T) {

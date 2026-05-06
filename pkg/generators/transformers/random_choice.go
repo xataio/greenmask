@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/eminano/greenmask/pkg/generators"
-	"github.com/eminano/greenmask/pkg/toolkit"
+	"github.com/xataio/greenmask/pkg/generators"
+	"github.com/xataio/greenmask/pkg/toolkit"
 )
 
 type RandomChoiceTransformer struct {

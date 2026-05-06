@@ -41,8 +41,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/eminano/greenmask/internal/storages"
-	"github.com/eminano/greenmask/internal/storages/domains"
+	"github.com/xataio/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/storages/domains"
 )
 
 const DefaultS3ObjectsDelimiter = "/"

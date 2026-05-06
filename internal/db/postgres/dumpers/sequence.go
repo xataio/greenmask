@@ -20,8 +20,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/eminano/greenmask/internal/db/postgres/entries"
-	"github.com/eminano/greenmask/internal/storages"
+	"github.com/xataio/greenmask/internal/db/postgres/entries"
+	"github.com/xataio/greenmask/internal/storages"
 )
 
 type SequenceDumper struct {
