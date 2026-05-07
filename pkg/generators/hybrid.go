@@ -3,9 +3,11 @@ package generators
 import (
 	"encoding/binary"
 	"math/rand"
+	"sync"
 )
 
 type HybridBytes struct {
+	mu          sync.Mutex
 	r           *rand.Rand
 	g           Generator
 	size        int
@@ -40,6 +42,8 @@ func NewHybridBytes(seed int64, requestedSize int, h Generator) *HybridBytes {
 }
 
 func (hb *HybridBytes) Generate(data []byte) ([]byte, error) {
+	hb.mu.Lock()
+	defer hb.mu.Unlock()
 	hb.resBuf = hb.resBuf[:0]
 	res, err := hb.g.Generate(data)
 	if err != nil {
